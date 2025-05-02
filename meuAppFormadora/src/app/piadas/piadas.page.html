@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Piadas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Clique para gerar uma piada!</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>{{ piada || 'Aguardando piada...' }}</p> 
+      <ion-button expand="block" (click)="gerarPiada()">Gerar Piada</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+
+<ion-button expand="block" (click)="irParaHome()">Voltar para Apresentação</ion-button>
+<ion-button expand="block" (click)="irParaSobre()">Voltar para Sobre</ion-button>
+
+</ion-content>

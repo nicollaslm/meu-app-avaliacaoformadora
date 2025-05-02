@@ -1,0 +1,7 @@
+{
+  "name": "meuAppFormadora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
